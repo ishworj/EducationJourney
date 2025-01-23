@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.bgimghome{
+    height: 95vh;
+    width: 100vw;
+    background: url(college-5757815.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.bgimghome > div{
+    background-color: rgba(255, 255, 255, 0.74);
+    backdrop-filter:blur(10px);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+a{
+    color:blue;
+    padding: 1px;
+    font-weight: bolder;
+}
+.links{
+    margin-top:1em;
+    text-align: right;
+}
+
+
+
+footer{
+    height: 5vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+}
